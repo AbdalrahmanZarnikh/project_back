@@ -1,0 +1,17 @@
+meta {
+  name: delete room
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:5000/api/rooms/674449a57ebc35898c1a0ec7
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "name":"new"
+  }
+}

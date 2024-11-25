@@ -1,0 +1,24 @@
+meta {
+  name: add subject
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5000/api/subjects
+  body: multipartForm
+  auth: none
+}
+
+body:json {
+  {
+    "name":"test1",
+    "description":"this is test description"
+  }
+}
+
+body:multipart-form {
+  name: test2
+  description: this is test descfsfsafa
+  image: @file(C:\Users\linovo\Downloads\51sJmHfw92L._SL1000_-300x300.jpg)
+}

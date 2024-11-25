@@ -1,0 +1,17 @@
+meta {
+  name: delete feature
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:5000/api/specialfeatures/67440aaffc66eae82674d536
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "name":"new"
+  }
+}

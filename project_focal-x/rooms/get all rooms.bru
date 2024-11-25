@@ -1,0 +1,17 @@
+meta {
+  name: get all rooms
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:5000/api/rooms?name=new
+  body: none
+  auth: none
+}
+
+params:query {
+  name: new
+  ~page: 4
+  ~limit: 3
+}

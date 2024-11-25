@@ -1,0 +1,17 @@
+meta {
+  name: update feature
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:5000/api/specialfeatures/67440af6cc5d9cd1f8e1c42f
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"new"
+  }
+}
