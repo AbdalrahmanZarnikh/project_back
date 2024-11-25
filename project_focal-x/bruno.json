@@ -1,9 +1,0 @@
-{
-  "version": "1",
-  "name": "project_focal-x",
-  "type": "collection",
-  "ignore": [
-    "node_modules",
-    ".git"
-  ]
-}
