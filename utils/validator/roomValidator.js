@@ -17,7 +17,7 @@ exports.createRoomValidator = [
     .isLength({ max: 200 })
     .withMessage("Too Long description"),
   
-  check("images")
+ 
   
   ,
 
