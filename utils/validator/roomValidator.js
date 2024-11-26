@@ -19,7 +19,7 @@ exports.createRoomValidator = [
   
  
   
-  ,
+  
 
   ValidatorMiddle
 ];
